@@ -20,5 +20,5 @@ app.use('/',(req,res,next)=>{
 
 mongoose.connect('mongodb+srv://Siddharth999:Siddharth18*@cluster0.wmel5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority').then(result => {
   console.log('Connected');
-  app.listen(3000);
+  app.listen(process.env.PORT || 3000);
 })
