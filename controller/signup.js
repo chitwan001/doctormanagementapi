@@ -2,13 +2,13 @@ const doctor = require('../models/doctor');
 
 exports.addDoctor= (req,res,next) => {
     const newdoc = new doctor({
-      name : 'Sundar Pichai',
-      email : 'malhotrasiddharth999@gmail.com',
-      dob : 23-09-1989,
-      qualification : 'BDS',
-      password : 'sundarpichai',
-      specilization : 'Dental',
-      fee : 1000,
+      name : 'Gaurav Shrivastava',
+      email : 'chitwan002@gmail.com',
+      dob : 29-09-1989,
+      qualification : 'XYZ',
+      password : 'chitwanbindal',
+      specilization : 'Psychologist',
+      fee : 10000,
       timeslot : [
         {days : '0-5' , time : '8-13'}
       ],
